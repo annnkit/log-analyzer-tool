@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log Analyzer</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    body { font-family: sans-serif; background: #111; color: #eee; margin: 0; padding: 24px; }
+    h1 { margin-top: 0; }
+    .grid { display: grid; grid-template-columns: 1fr 2fr; gap: 24px; }
+    .card { background: #1c1c1c; border-radius: 8px; padding: 16px; margin-bottom: 24px; }
+    .chart-box { position: relative; height: 300px; }
+    #dropZone { border: 2px dashed #555; text-align: center; cursor: pointer; }
+    #dropZone.hover { border-color: #4da3ff; background: #232a33; }
+    .toolbar { margin-bottom: 24px; }
+    th, td { padding: 4px 8px; }
+  </style>
+</head>
+<body>
+  <h1>Log Analyzer</h1>
+
+  <div class="card" id="dropZone">
+    <p>Drag a .log file here, or click to choose one</p>
+    <p id="uploadStatus"></p>
+    <input type="file" id="fileInput" accept=".log,.txt" hidden>
+  </div>
+
+  <div class="toolbar">
+    Showing:
+    <select id="fileFilter"><option value="">All files</option></select>
+    <button id="deleteFileBtn">Delete this file</button>
+  </div>
+
+  <div class="grid">
+    <div class="card"><div class="chart-box"><canvas id="levelChart"></canvas></div></div>
+    <div class="card"><div class="chart-box"><canvas id="hourChart"></canvas></div></div>
+  </div>
+
+  <div class="card">
+    <h2>Top errors</h2>
+    <ul id="topErrors"></ul>
+  </div>
+
+  <div class="card">
+    <h2>Search logs</h2>
+    <select id="levelFilter">
+      <option value="">All levels</option>
+      <option>ERROR</option>
+      <option>WARN</option>
+      <option>INFO</option>
+    </select>
+    <input id="keywordFilter" placeholder="Search message...">
+    <button id="searchBtn">Search</button>
+
+    <table id="logTable" style="width:100%; margin-top:12px; text-align:left">
+      <thead><tr><th>Time</th><th>Level</th><th>Message</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script>
+    const fileFilter = document.getElementById("fileFilter");
+    const dropZone = document.getElementById("dropZone");
+    const fileInput = document.getElementById("fileInput");
+    const uploadStatus = document.getElementById("uploadStatus");
+
+    // Adds ?source_file=... to a URL when a specific file is selected
+    function withFile(url) {
+      if (!fileFilter.value) return url;
+      return url + "?source_file=" + encodeURIComponent(fileFilter.value);
+    }
+
+    // ---------- file dropdown ----------
+    async function loadFiles(selectName) {
+      const files = await (await fetch("/files")).json();
+      const current = selectName !== undefined ? selectName : fileFilter.value;
+
+      fileFilter.innerHTML = '<option value="">All files</option>';
+      for (const f of files) {
+        const opt = document.createElement("option");
+        opt.value = f.source_file;
+        opt.textContent = `${f.source_file} (${f.count} lines)`;
+        fileFilter.appendChild(opt);
+      }
+      fileFilter.value = current;
+    }
+
+    // ---------- charts ----------
+    let levelChart = null;
+    let hourChart = null;
+
+    async function loadDashboard() {
+      const levels = await (await fetch(withFile("/stats/levels"))).json();
+      const hours = await (await fetch(withFile("/stats/errors-per-hour"))).json();
+
+      if (levelChart) levelChart.destroy();
+      if (hourChart) hourChart.destroy();
+
+      levelChart = new Chart(document.getElementById("levelChart"), {
+        type: "doughnut",
+        data: {
+          labels: Object.keys(levels),
+          datasets: [{ data: Object.values(levels) }]
+        },
+        options: { maintainAspectRatio: false }
+      });
+
+      hourChart = new Chart(document.getElementById("hourChart"), {
+        type: "line",
+        data: {
+          labels: hours.map(h => h.hour),
+          datasets: [{ label: "Errors per hour", data: hours.map(h => h.count) }]
+        },
+        options: { maintainAspectRatio: false }
+      });
+    }
+
+    // ---------- top errors ----------
+    async function loadTopErrors() {
+      const errors = await (await fetch(withFile("/stats/top-errors"))).json();
+      const list = document.getElementById("topErrors");
+      list.innerHTML = "";
+      for (const e of errors) {
+        const li = document.createElement("li");
+        li.textContent = `${e.count}x ${e.message}`;
+        list.appendChild(li);
+      }
+    }
+
+    // ---------- search table ----------
+    async function loadLogs() {
+      const level = document.getElementById("levelFilter").value;
+      const keyword = document.getElementById("keywordFilter").value;
+
+      const params = new URLSearchParams({ limit: 50 });
+      if (level) params.set("level", level);
+      if (keyword) params.set("keyword", keyword);
+      if (fileFilter.value) params.set("source_file", fileFilter.value);
+
+      const logs = await (await fetch("/logs?" + params)).json();
+
+      const tbody = document.querySelector("#logTable tbody");
+      tbody.innerHTML = "";
+      for (const log of logs) {
+        const tr = document.createElement("tr");
+        for (const value of [log.timestamp, log.level, log.message]) {
+          const td = document.createElement("td");
+          td.textContent = value;
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+    }
+
+    function refreshAll() {
+      loadDashboard();
+      loadTopErrors();
+      loadLogs();
+    }
+
+    // ---------- events ----------
+    fileFilter.addEventListener("change", refreshAll);
+    document.getElementById("searchBtn").addEventListener("click", loadLogs);
+
+    document.getElementById("deleteFileBtn").addEventListener("click", async () => {
+      const name = fileFilter.value;
+      if (!name) {
+        alert("Pick a specific file first, not 'All files'.");
+        return;
+      }
+      if (!confirm(`Delete all data from ${name}? This cannot be undone.`)) return;
+
+      const res = await fetch("/files/" + encodeURIComponent(name), { method: "DELETE" });
+      if (!res.ok) {
+        alert("Delete failed");
+        return;
+      }
+      await loadFiles("");
+      refreshAll();
+    });
+
+    // ---------- upload ----------
+    dropZone.addEventListener("click", () => fileInput.click());
+    dropZone.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      dropZone.classList.add("hover");
+    });
+    dropZone.addEventListener("dragleave", () => dropZone.classList.remove("hover"));
+    dropZone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropZone.classList.remove("hover");
+      if (e.dataTransfer.files.length) uploadFile(e.dataTransfer.files[0]);
+    });
+    fileInput.addEventListener("change", () => {
+      if (fileInput.files.length) uploadFile(fileInput.files[0]);
+    });
+
+    async function uploadFile(file) {
+      const formData = new FormData();
+      formData.append("file", file);
+      uploadStatus.textContent = "Uploading...";
+
+      try {
+        const res = await fetch("/upload", { method: "POST", body: formData });
+        const data = await res.json();
+
+        if (!res.ok) {
+          uploadStatus.textContent = "Error: " + data.detail;
+          return;
+        }
+
+        uploadStatus.textContent =
+          `Saved ${data.saved} lines from ${data.filename} (${data.skipped} skipped)`;
+
+        await loadFiles(data.filename);   // select the file just uploaded
+        refreshAll();
+      } catch (err) {
+        console.error(err);
+        uploadStatus.textContent = "Upload failed: " + err.message;
+      }
+    }
+
+    // ---------- start ----------
+    loadFiles();
+    refreshAll();
+  </script>
+</body>
+</html>

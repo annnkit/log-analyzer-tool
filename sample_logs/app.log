@@ -1,0 +1,4 @@
+2026-10-12 14:03:22 INFO Server started
+2026-10-12 14:03:25 ERROR Database connection failed
+2026-10-12 14:03:30 WARN Slow response: 2.4s
+2026-10-12 14:04:01 ERROR Database connection failed

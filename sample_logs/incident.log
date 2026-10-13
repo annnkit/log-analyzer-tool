@@ -1,0 +1,515 @@
+2026-10-14 08:00:34 ERROR Out of memory
+2026-10-14 08:01:00 WARN Disk usage at 85%
+2026-10-14 08:01:12 INFO Request completed
+2026-10-14 08:01:33 INFO Server started
+2026-10-14 08:02:21 ERROR Payment gateway timeout
+2026-10-14 08:02:58 INFO Server started
+2026-10-14 08:02:59 INFO User logged in
+2026-10-14 08:03:56 INFO Server started
+2026-10-14 08:04:25 WARN Disk usage at 85%
+2026-10-14 08:05:10 INFO Cache refreshed
+2026-10-14 08:05:35 WARN Disk usage at 85%
+2026-10-14 08:06:26 INFO User logged in
+2026-10-14 08:07:16 INFO User logged in
+2026-10-14 08:07:47 WARN Slow response: 2.4s
+2026-10-14 08:08:29 INFO User logged in
+2026-10-14 08:09:16 INFO Server started
+2026-10-14 08:09:35 INFO User logged in
+2026-10-14 08:09:54 INFO Cache refreshed
+2026-10-14 08:10:52 INFO User logged in
+2026-10-14 08:10:57 INFO Server started
+2026-10-14 08:11:53 WARN Disk usage at 85%
+2026-10-14 08:12:46 INFO Cache refreshed
+2026-10-14 08:12:55 ERROR Database connection failed
+2026-10-14 08:13:55 INFO Cache refreshed
+2026-10-14 08:14:17 INFO User logged in
+2026-10-14 08:14:49 INFO Server started
+2026-10-14 08:15:42 INFO Cache refreshed
+2026-10-14 08:15:57 INFO Request completed
+2026-10-14 08:16:09 INFO Request completed
+2026-10-14 08:17:03 INFO User logged in
+2026-10-14 08:17:46 INFO Cache refreshed
+2026-10-14 08:18:43 INFO User logged in
+2026-10-14 08:18:48 ERROR Payment gateway timeout
+2026-10-14 08:19:06 INFO User logged in
+2026-10-14 08:19:41 INFO Request completed
+2026-10-14 08:20:24 INFO User logged in
+2026-10-14 08:20:31 WARN Disk usage at 85%
+2026-10-14 08:21:31 ERROR Out of memory
+2026-10-14 08:21:34 INFO Server started
+2026-10-14 08:22:24 INFO Cache refreshed
+2026-10-14 08:22:36 INFO User logged in
+2026-10-14 08:23:27 INFO User logged in
+2026-10-14 08:24:01 ERROR Database connection failed
+2026-10-14 08:24:22 INFO Request completed
+2026-10-14 08:24:58 INFO Cache refreshed
+2026-10-14 08:25:40 WARN Disk usage at 85%
+2026-10-14 08:25:56 WARN Slow response: 2.4s
+2026-10-14 08:26:31 INFO Cache refreshed
+2026-10-14 08:26:38 WARN Retrying request
+2026-10-14 08:27:05 WARN Retrying request
+2026-10-14 08:27:33 INFO Cache refreshed
+2026-10-14 08:28:26 INFO User logged in
+2026-10-14 08:28:35 WARN Retrying request
+2026-10-14 08:29:10 INFO User logged in
+2026-10-14 08:29:56 INFO Request completed
+2026-10-14 08:30:20 WARN Retrying request
+2026-10-14 08:31:16 INFO Request completed
+2026-10-14 08:31:53 WARN Retrying request
+2026-10-14 08:32:40 INFO Request completed
+2026-10-14 08:32:54 WARN Disk usage at 85%
+2026-10-14 08:33:43 INFO Server started
+2026-10-14 08:34:03 INFO Request completed
+2026-10-14 08:34:36 INFO User logged in
+2026-10-14 08:34:37 WARN Retrying request
+2026-10-14 08:35:07 INFO Request completed
+2026-10-14 08:35:13 WARN Slow response: 2.4s
+2026-10-14 08:36:09 INFO Request completed
+2026-10-14 08:36:59 WARN Slow response: 2.4s
+2026-10-14 08:37:28 WARN Disk usage at 85%
+2026-10-14 08:37:29 INFO User logged in
+2026-10-14 08:37:37 WARN Retrying request
+2026-10-14 08:37:50 INFO Request completed
+2026-10-14 08:38:46 WARN Slow response: 2.4s
+2026-10-14 08:39:39 INFO Request completed
+2026-10-14 08:40:34 INFO Server started
+2026-10-14 08:40:52 INFO Server started
+2026-10-14 08:41:10 INFO User logged in
+2026-10-14 08:41:26 WARN Slow response: 2.4s
+2026-10-14 08:42:18 INFO Server started
+2026-10-14 08:42:42 WARN Disk usage at 85%
+2026-10-14 08:43:00 INFO Server started
+2026-10-14 08:43:43 INFO Server started
+2026-10-14 08:43:48 INFO Cache refreshed
+2026-10-14 08:44:26 INFO Cache refreshed
+2026-10-14 08:45:21 ERROR Database connection failed
+2026-10-14 08:46:15 INFO Server started
+2026-10-14 08:47:05 WARN Disk usage at 85%
+2026-10-14 08:47:46 INFO Server started
+2026-10-14 08:48:38 INFO Server started
+2026-10-14 08:49:38 WARN Disk usage at 85%
+2026-10-14 08:49:48 WARN Disk usage at 85%
+2026-10-14 08:50:32 INFO Cache refreshed
+2026-10-14 08:51:21 INFO Request completed
+2026-10-14 08:51:48 INFO Cache refreshed
+2026-10-14 08:52:19 INFO Server started
+2026-10-14 08:52:57 INFO Cache refreshed
+2026-10-14 08:53:06 INFO Request completed
+2026-10-14 08:53:16 INFO Server started
+2026-10-14 08:54:07 INFO Cache refreshed
+2026-10-14 08:54:54 INFO User logged in
+2026-10-14 08:55:51 INFO Request completed
+2026-10-14 08:56:47 INFO Cache refreshed
+2026-10-14 08:57:30 INFO Cache refreshed
+2026-10-14 08:58:26 INFO Cache refreshed
+2026-10-14 08:59:03 WARN Disk usage at 85%
+2026-10-14 08:59:31 INFO User logged in
+2026-10-14 09:00:27 ERROR Payment gateway timeout
+2026-10-14 09:01:12 INFO User logged in
+2026-10-14 09:01:26 WARN Slow response: 2.4s
+2026-10-14 09:01:48 INFO User logged in
+2026-10-14 09:02:37 INFO Cache refreshed
+2026-10-14 09:02:59 INFO Server started
+2026-10-14 09:03:20 WARN Disk usage at 85%
+2026-10-14 09:04:13 ERROR Payment gateway timeout
+2026-10-14 09:04:23 ERROR Database connection failed
+2026-10-14 09:05:10 INFO Request completed
+2026-10-14 09:05:16 WARN Retrying request
+2026-10-14 09:05:47 INFO Server started
+2026-10-14 09:06:31 INFO Cache refreshed
+2026-10-14 09:07:21 INFO Server started
+2026-10-14 09:07:33 INFO Cache refreshed
+2026-10-14 09:08:00 INFO Server started
+2026-10-14 09:08:15 INFO Request completed
+2026-10-14 09:08:34 INFO Server started
+2026-10-14 09:08:54 INFO User logged in
+2026-10-14 09:09:10 WARN Slow response: 2.4s
+2026-10-14 09:09:54 ERROR File not found
+2026-10-14 09:10:07 ERROR File not found
+2026-10-14 09:10:23 INFO Request completed
+2026-10-14 09:11:11 WARN Slow response: 2.4s
+2026-10-14 09:12:01 INFO Cache refreshed
+2026-10-14 09:12:09 INFO Server started
+2026-10-14 09:12:26 INFO Cache refreshed
+2026-10-14 09:12:37 WARN Slow response: 2.4s
+2026-10-14 09:13:33 ERROR File not found
+2026-10-14 09:13:43 INFO Server started
+2026-10-14 09:14:35 WARN Disk usage at 85%
+2026-10-14 09:15:03 INFO User logged in
+2026-10-14 09:15:06 WARN Disk usage at 85%
+2026-10-14 09:15:51 INFO Server started
+2026-10-14 09:16:21 WARN Retrying request
+2026-10-14 09:17:08 INFO User logged in
+2026-10-14 09:17:47 WARN Slow response: 2.4s
+2026-10-14 09:18:13 INFO Server started
+2026-10-14 09:18:44 INFO Server started
+2026-10-14 09:19:40 INFO User logged in
+2026-10-14 09:20:17 WARN Disk usage at 85%
+2026-10-14 09:21:10 ERROR Out of memory
+2026-10-14 09:21:49 INFO Server started
+2026-10-14 09:22:19 WARN Slow response: 2.4s
+2026-10-14 09:22:27 WARN Slow response: 2.4s
+2026-10-14 09:23:02 WARN Slow response: 2.4s
+2026-10-14 09:23:21 INFO User logged in
+2026-10-14 09:23:36 INFO Request completed
+2026-10-14 09:24:24 INFO Cache refreshed
+2026-10-14 09:24:39 INFO User logged in
+2026-10-14 09:25:31 WARN Disk usage at 85%
+2026-10-14 09:26:21 WARN Disk usage at 85%
+2026-10-14 09:27:02 WARN Disk usage at 85%
+2026-10-14 09:27:06 INFO Request completed
+2026-10-14 09:27:17 WARN Retrying request
+2026-10-14 09:27:45 INFO Request completed
+2026-10-14 09:28:10 INFO Server started
+2026-10-14 09:28:47 WARN Slow response: 2.4s
+2026-10-14 09:29:38 ERROR Out of memory
+2026-10-14 09:30:37 INFO Request completed
+2026-10-14 09:30:39 INFO Cache refreshed
+2026-10-14 09:31:10 INFO Cache refreshed
+2026-10-14 09:31:41 INFO Server started
+2026-10-14 09:31:42 INFO Server started
+2026-10-14 09:32:08 INFO Server started
+2026-10-14 09:32:14 INFO Cache refreshed
+2026-10-14 09:32:30 INFO User logged in
+2026-10-14 09:33:15 WARN Retrying request
+2026-10-14 09:34:06 INFO Server started
+2026-10-14 09:35:04 INFO Cache refreshed
+2026-10-14 09:35:11 INFO Server started
+2026-10-14 09:36:01 ERROR File not found
+2026-10-14 09:36:20 INFO Server started
+2026-10-14 09:36:45 INFO Server started
+2026-10-14 09:37:07 INFO User logged in
+2026-10-14 09:37:53 INFO Cache refreshed
+2026-10-14 09:38:43 WARN Slow response: 2.4s
+2026-10-14 09:39:27 INFO Server started
+2026-10-14 09:40:02 INFO User logged in
+2026-10-14 09:40:22 INFO Cache refreshed
+2026-10-14 09:40:55 INFO Server started
+2026-10-14 09:41:18 INFO Request completed
+2026-10-14 09:42:12 INFO Cache refreshed
+2026-10-14 09:42:25 INFO Request completed
+2026-10-14 09:42:49 INFO Request completed
+2026-10-14 09:43:32 INFO Request completed
+2026-10-14 09:43:40 INFO User logged in
+2026-10-14 09:43:43 INFO User logged in
+2026-10-14 09:43:53 INFO Cache refreshed
+2026-10-14 09:44:34 WARN Slow response: 2.4s
+2026-10-14 09:45:08 ERROR Payment gateway timeout
+2026-10-14 09:46:06 WARN Slow response: 2.4s
+2026-10-14 09:46:51 INFO Server started
+2026-10-14 09:47:05 INFO User logged in
+2026-10-14 09:47:21 WARN Disk usage at 85%
+2026-10-14 09:48:07 WARN Retrying request
+2026-10-14 09:48:56 WARN Disk usage at 85%
+2026-10-14 09:49:13 INFO Server started
+2026-10-14 09:49:39 INFO User logged in
+2026-10-14 09:50:34 INFO User logged in
+2026-10-14 09:51:19 WARN Retrying request
+2026-10-14 09:52:14 INFO Server started
+2026-10-14 09:53:08 INFO User logged in
+2026-10-14 09:53:22 WARN Slow response: 2.4s
+2026-10-14 09:53:59 ERROR Database connection failed
+2026-10-14 09:54:26 INFO Cache refreshed
+2026-10-14 09:54:59 INFO Cache refreshed
+2026-10-14 09:55:56 INFO Cache refreshed
+2026-10-14 09:56:07 INFO User logged in
+2026-10-14 09:56:10 ERROR Database connection failed
+2026-10-14 09:56:48 INFO User logged in
+2026-10-14 09:57:45 INFO Server started
+2026-10-14 09:58:15 INFO Server started
+2026-10-14 09:58:19 INFO Server started
+2026-10-14 09:59:11 INFO Server started
+2026-10-14 09:59:32 INFO Cache refreshed
+2026-10-14 09:59:59 WARN Retrying request
+2026-10-14 10:00:06 ERROR Out of memory
+2026-10-14 10:00:52 INFO Request completed
+2026-10-14 10:01:24 INFO Request completed
+2026-10-14 10:01:52 INFO Request completed
+2026-10-14 10:02:31 INFO Cache refreshed
+2026-10-14 10:03:01 ERROR Database connection failed
+2026-10-14 10:03:22 ERROR Payment gateway timeout
+2026-10-14 10:03:29 INFO Request completed
+2026-10-14 10:03:42 INFO Request completed
+2026-10-14 10:04:32 WARN Slow response: 2.4s
+2026-10-14 10:05:28 INFO Server started
+2026-10-14 10:06:25 INFO Request completed
+2026-10-14 10:06:45 WARN Retrying request
+2026-10-14 10:07:26 INFO User logged in
+2026-10-14 10:07:51 INFO Server started
+2026-10-14 10:07:58 INFO Cache refreshed
+2026-10-14 10:08:50 INFO Cache refreshed
+2026-10-14 10:08:57 INFO Server started
+2026-10-14 10:09:11 INFO Server started
+2026-10-14 10:09:48 ERROR File not found
+2026-10-14 10:10:19 INFO Cache refreshed
+2026-10-14 10:10:40 INFO Server started
+2026-10-14 10:10:58 INFO Cache refreshed
+2026-10-14 10:11:58 INFO Cache refreshed
+2026-10-14 10:12:15 INFO User logged in
+2026-10-14 10:13:00 ERROR Database connection failed
+2026-10-14 10:13:03 ERROR Database connection failed
+2026-10-14 10:13:03 ERROR Out of memory
+2026-10-14 10:13:06 ERROR Database connection failed
+2026-10-14 10:13:09 ERROR Database connection failed
+2026-10-14 10:13:11 ERROR Database connection failed
+2026-10-14 10:13:12 ERROR Database connection failed
+2026-10-14 10:13:15 ERROR Database connection failed
+2026-10-14 10:13:18 ERROR Database connection failed
+2026-10-14 10:13:19 WARN Disk usage at 85%
+2026-10-14 10:13:21 ERROR Database connection failed
+2026-10-14 10:13:24 ERROR Database connection failed
+2026-10-14 10:13:27 ERROR Database connection failed
+2026-10-14 10:13:30 ERROR Database connection failed
+2026-10-14 10:13:33 ERROR Database connection failed
+2026-10-14 10:13:35 INFO Cache refreshed
+2026-10-14 10:13:36 ERROR Database connection failed
+2026-10-14 10:13:39 ERROR Database connection failed
+2026-10-14 10:13:39 INFO Server started
+2026-10-14 10:13:42 ERROR Database connection failed
+2026-10-14 10:14:16 INFO Server started
+2026-10-14 10:14:25 INFO Request completed
+2026-10-14 10:14:34 ERROR Out of memory
+2026-10-14 10:14:41 INFO Cache refreshed
+2026-10-14 10:15:09 ERROR Database connection failed
+2026-10-14 10:16:08 INFO Server started
+2026-10-14 10:16:58 INFO Request completed
+2026-10-14 10:17:06 INFO Server started
+2026-10-14 10:17:58 WARN Disk usage at 85%
+2026-10-14 10:18:02 WARN Disk usage at 85%
+2026-10-14 10:18:32 INFO User logged in
+2026-10-14 10:19:11 INFO Server started
+2026-10-14 10:19:35 INFO Cache refreshed
+2026-10-14 10:20:27 INFO Server started
+2026-10-14 10:20:45 INFO Cache refreshed
+2026-10-14 10:20:57 INFO Request completed
+2026-10-14 10:21:14 INFO Request completed
+2026-10-14 10:22:04 INFO User logged in
+2026-10-14 10:22:38 INFO Server started
+2026-10-14 10:23:07 INFO Cache refreshed
+2026-10-14 10:23:39 INFO Server started
+2026-10-14 10:24:38 INFO Cache refreshed
+2026-10-14 10:25:38 INFO Cache refreshed
+2026-10-14 10:26:25 INFO User logged in
+2026-10-14 10:26:59 INFO Cache refreshed
+2026-10-14 10:27:55 INFO Server started
+2026-10-14 10:28:17 INFO Server started
+2026-10-14 10:28:21 INFO Request completed
+2026-10-14 10:28:54 INFO User logged in
+2026-10-14 10:29:06 ERROR Payment gateway timeout
+2026-10-14 10:29:14 INFO Server started
+2026-10-14 10:29:57 INFO Request completed
+2026-10-14 10:30:51 INFO Request completed
+2026-10-14 10:31:30 INFO User logged in
+2026-10-14 10:31:54 INFO Request completed
+2026-10-14 10:32:14 INFO User logged in
+2026-10-14 10:33:12 WARN Disk usage at 85%
+2026-10-14 10:33:49 INFO Request completed
+2026-10-14 10:33:58 INFO Request completed
+2026-10-14 10:34:35 WARN Disk usage at 85%
+2026-10-14 10:35:12 INFO Request completed
+2026-10-14 10:35:51 INFO Request completed
+2026-10-14 10:36:49 ERROR Payment gateway timeout
+2026-10-14 10:37:44 ERROR Out of memory
+2026-10-14 10:37:56 INFO Request completed
+2026-10-14 10:38:56 INFO User logged in
+2026-10-14 10:39:31 INFO User logged in
+2026-10-14 10:39:51 INFO Server started
+2026-10-14 10:40:30 INFO Server started
+2026-10-14 10:41:07 WARN Retrying request
+2026-10-14 10:41:58 WARN Slow response: 2.4s
+2026-10-14 10:42:48 INFO User logged in
+2026-10-14 10:43:22 INFO Cache refreshed
+2026-10-14 10:43:45 INFO Server started
+2026-10-14 10:44:17 INFO Request completed
+2026-10-14 10:45:11 INFO Server started
+2026-10-14 10:45:51 INFO Cache refreshed
+2026-10-14 10:46:12 INFO Server started
+2026-10-14 10:47:04 INFO User logged in
+2026-10-14 10:47:43 ERROR Payment gateway timeout
+2026-10-14 10:47:49 INFO User logged in
+2026-10-14 10:48:46 INFO User logged in
+2026-10-14 10:48:49 INFO Request completed
+2026-10-14 10:48:52 INFO Request completed
+2026-10-14 10:49:13 ERROR Payment gateway timeout
+2026-10-14 10:50:02 INFO Request completed
+2026-10-14 10:50:07 INFO Server started
+2026-10-14 10:50:14 INFO Server started
+2026-10-14 10:51:06 WARN Slow response: 2.4s
+2026-10-14 10:51:35 WARN Slow response: 2.4s
+2026-10-14 10:51:41 INFO Cache refreshed
+2026-10-14 10:51:48 INFO Server started
+2026-10-14 10:51:56 INFO Server started
+2026-10-14 10:52:10 INFO Cache refreshed
+2026-10-14 10:53:03 INFO Server started
+2026-10-14 10:53:50 ERROR File not found
+2026-10-14 10:53:54 INFO Cache refreshed
+2026-10-14 10:54:54 WARN Slow response: 2.4s
+2026-10-14 10:54:55 INFO Cache refreshed
+2026-10-14 10:55:13 ERROR Database connection failed
+2026-10-14 10:55:41 INFO User logged in
+2026-10-14 10:55:48 WARN Disk usage at 85%
+2026-10-14 10:55:54 ERROR Database connection failed
+2026-10-14 10:56:39 WARN Slow response: 2.4s
+2026-10-14 10:57:09 INFO Request completed
+2026-10-14 10:57:35 INFO Server started
+2026-10-14 10:58:28 INFO Request completed
+2026-10-14 10:58:46 ERROR File not found
+2026-10-14 10:58:55 INFO Cache refreshed
+2026-10-14 10:59:21 INFO Cache refreshed
+2026-10-14 11:00:01 INFO Server started
+2026-10-14 11:00:02 INFO Request completed
+2026-10-14 11:00:26 ERROR Database connection failed
+2026-10-14 11:01:07 WARN Retrying request
+2026-10-14 11:01:56 INFO Server started
+2026-10-14 11:02:39 WARN Retrying request
+2026-10-14 11:02:54 INFO User logged in
+2026-10-14 11:02:55 WARN Disk usage at 85%
+2026-10-14 11:03:22 INFO Cache refreshed
+2026-10-14 11:03:24 INFO Server started
+2026-10-14 11:03:32 INFO User logged in
+2026-10-14 11:04:21 INFO Server started
+2026-10-14 11:04:32 INFO Request completed
+2026-10-14 11:04:35 INFO Request completed
+2026-10-14 11:04:53 WARN Disk usage at 85%
+2026-10-14 11:04:58 INFO Cache refreshed
+2026-10-14 11:05:44 WARN Disk usage at 85%
+2026-10-14 11:05:57 INFO Server started
+2026-10-14 11:06:19 INFO Cache refreshed
+2026-10-14 11:06:45 INFO User logged in
+2026-10-14 11:07:44 ERROR Out of memory
+2026-10-14 11:08:30 INFO Cache refreshed
+2026-10-14 11:09:06 INFO User logged in
+2026-10-14 11:09:55 INFO User logged in
+2026-10-14 11:10:52 INFO Request completed
+2026-10-14 11:11:36 INFO Server started
+2026-10-14 11:12:14 INFO Server started
+2026-10-14 11:12:34 WARN Disk usage at 85%
+2026-10-14 11:13:28 INFO Cache refreshed
+2026-10-14 11:13:35 INFO Request completed
+2026-10-14 11:14:21 WARN Retrying request
+2026-10-14 11:15:17 WARN Retrying request
+2026-10-14 11:15:57 INFO Cache refreshed
+2026-10-14 11:16:47 INFO Cache refreshed
+2026-10-14 11:17:35 INFO User logged in
+2026-10-14 11:18:25 WARN Slow response: 2.4s
+2026-10-14 11:19:25 WARN Slow response: 2.4s
+2026-10-14 11:20:19 INFO User logged in
+2026-10-14 11:20:55 INFO User logged in
+2026-10-14 11:21:41 INFO Server started
+2026-10-14 11:22:18 WARN Disk usage at 85%
+2026-10-14 11:22:27 INFO Server started
+2026-10-14 11:22:41 ERROR File not found
+2026-10-14 11:23:09 WARN Retrying request
+2026-10-14 11:23:11 INFO Request completed
+2026-10-14 11:23:57 INFO Request completed
+2026-10-14 11:24:30 INFO Server started
+2026-10-14 11:25:23 INFO User logged in
+2026-10-14 11:26:22 INFO Server started
+2026-10-14 11:26:27 INFO Request completed
+2026-10-14 11:27:09 WARN Retrying request
+2026-10-14 11:27:42 INFO User logged in
+2026-10-14 11:28:35 WARN Disk usage at 85%
+2026-10-14 11:29:11 ERROR File not found
+2026-10-14 11:29:47 INFO Cache refreshed
+2026-10-14 11:30:41 INFO Request completed
+2026-10-14 11:30:53 INFO User logged in
+2026-10-14 11:31:41 INFO Cache refreshed
+2026-10-14 11:32:16 WARN Disk usage at 85%
+2026-10-14 11:32:58 WARN Disk usage at 85%
+2026-10-14 11:33:42 ERROR Database connection failed
+2026-10-14 11:33:55 INFO Cache refreshed
+2026-10-14 11:34:52 INFO Cache refreshed
+2026-10-14 11:35:08 INFO Server started
+2026-10-14 11:35:59 INFO User logged in
+2026-10-14 11:36:06 INFO Server started
+2026-10-14 11:36:45 INFO Request completed
+2026-10-14 11:37:27 INFO Server started
+2026-10-14 11:38:21 INFO User logged in
+2026-10-14 11:38:48 INFO Server started
+2026-10-14 11:39:06 INFO User logged in
+2026-10-14 11:39:44 INFO Request completed
+2026-10-14 11:40:32 WARN Disk usage at 85%
+2026-10-14 11:40:37 INFO Request completed
+2026-10-14 11:40:48 INFO Server started
+2026-10-14 11:41:46 WARN Disk usage at 85%
+2026-10-14 11:42:09 INFO User logged in
+2026-10-14 11:42:33 ERROR Out of memory
+2026-10-14 11:43:01 INFO Server started
+2026-10-14 11:43:32 INFO Cache refreshed
+2026-10-14 11:44:07 INFO Cache refreshed
+2026-10-14 11:44:32 WARN Slow response: 2.4s
+2026-10-14 11:44:48 INFO Cache refreshed
+2026-10-14 11:45:10 WARN Retrying request
+2026-10-14 11:45:38 INFO Cache refreshed
+2026-10-14 11:46:25 INFO Request completed
+2026-10-14 11:46:33 INFO Cache refreshed
+2026-10-14 11:47:23 INFO User logged in
+2026-10-14 11:47:49 INFO Cache refreshed
+2026-10-14 11:48:08 INFO Request completed
+2026-10-14 11:48:58 INFO Request completed
+2026-10-14 11:49:11 INFO Request completed
+2026-10-14 11:50:01 WARN Slow response: 2.4s
+2026-10-14 11:50:52 INFO Server started
+2026-10-14 11:51:38 ERROR Database connection failed
+2026-10-14 11:52:26 INFO Cache refreshed
+2026-10-14 11:52:36 INFO Server started
+2026-10-14 11:52:47 INFO User logged in
+2026-10-14 11:53:27 INFO Cache refreshed
+2026-10-14 11:54:14 WARN Slow response: 2.4s
+2026-10-14 11:54:15 INFO Request completed
+2026-10-14 11:54:19 INFO Server started
+2026-10-14 11:54:59 ERROR Out of memory
+2026-10-14 11:55:38 INFO Cache refreshed
+2026-10-14 11:56:08 INFO Cache refreshed
+2026-10-14 11:56:53 INFO User logged in
+2026-10-14 11:57:31 INFO Request completed
+2026-10-14 11:57:38 INFO User logged in
+2026-10-14 11:58:01 INFO User logged in
+2026-10-14 11:58:54 ERROR File not found
+2026-10-14 11:59:27 INFO Request completed
+2026-10-14 11:59:28 INFO User logged in
+2026-10-14 12:00:26 ERROR File not found
+2026-10-14 12:00:49 WARN Slow response: 2.4s
+2026-10-14 12:01:24 WARN Retrying request
+2026-10-14 12:02:07 INFO Request completed
+2026-10-14 12:02:31 INFO User logged in
+2026-10-14 12:03:08 INFO Request completed
+2026-10-14 12:03:41 INFO Cache refreshed
+2026-10-14 12:03:52 INFO Request completed
+2026-10-14 12:04:09 INFO Server started
+2026-10-14 12:04:13 WARN Disk usage at 85%
+2026-10-14 12:04:40 INFO User logged in
+2026-10-14 12:05:19 WARN Retrying request
+2026-10-14 12:05:29 INFO Cache refreshed
+2026-10-14 12:06:18 ERROR File not found
+2026-10-14 12:06:25 ERROR Database connection failed
+2026-10-14 12:06:48 INFO Request completed
+2026-10-14 12:07:18 WARN Retrying request
+2026-10-14 12:07:19 INFO Request completed
+2026-10-14 12:07:32 INFO Request completed
+2026-10-14 12:08:12 INFO Cache refreshed
+2026-10-14 12:08:37 WARN Disk usage at 85%
+2026-10-14 12:09:33 WARN Retrying request
+2026-10-14 12:10:33 WARN Slow response: 2.4s
+2026-10-14 12:11:32 WARN Retrying request
+2026-10-14 12:12:08 INFO Request completed
+2026-10-14 12:12:26 INFO Server started
+2026-10-14 12:13:02 INFO Request completed
+2026-10-14 12:13:30 INFO Server started
+2026-10-14 12:13:46 WARN Disk usage at 85%
+2026-10-14 12:14:01 WARN Disk usage at 85%
+2026-10-14 12:14:41 INFO Request completed
+2026-10-14 12:15:30 INFO Request completed
+2026-10-14 12:16:26 WARN Slow response: 2.4s
+2026-10-14 12:16:28 INFO Cache refreshed
+2026-10-14 12:17:06 INFO User logged in
+2026-10-14 12:17:53 INFO Cache refreshed
+2026-10-14 12:18:40 INFO Cache refreshed
+2026-10-14 12:19:13 INFO Request completed
+2026-10-14 12:19:18 ERROR File not found
+2026-10-14 12:19:48 INFO Cache refreshed
+2026-10-14 12:20:32 INFO Cache refreshed
+2026-10-14 12:21:27 WARN Retrying request
+2026-10-14 12:21:47 ERROR Out of memory
+2026-10-14 12:22:40 INFO Request completed
+2026-10-14 12:22:54 ERROR Database connection failed
